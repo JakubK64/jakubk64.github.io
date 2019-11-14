@@ -4,6 +4,7 @@ layout: page
 
 Test
 
+<section>
 {%for post in site.posts %}
       {% unless post.next %}
         <ul>
@@ -23,3 +24,4 @@ Test
         </li>
     {% endfor %}
     </ul>
+</section>
