@@ -2,6 +2,8 @@
 layout: default
 ---
 
+Test
+
 <ul>
     {% for post in paginator.posts %}
       <li>
