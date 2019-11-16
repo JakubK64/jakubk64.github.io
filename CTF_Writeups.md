@@ -7,13 +7,13 @@ layout: page
 	<ul>
 		<p>General Skills:
 			<ol>
-				<a href="{{ "/Based" | prepend: site.baseurl | replace: '//', '/' }}"><p>Based</p></a>
-				<a href="{{ "/flag_shop" | prepend: site.baseurl | replace: '//', '/' }}"><p>Flag_shop</p></a>
+				<li><a href="{{ "/Based" | prepend: site.baseurl | replace: '//', '/' }}"><p>Based</p></a></li>
+				<li><a href="{{ "/flag_shop" | prepend: site.baseurl | replace: '//', '/' }}"><p>Flag_shop</p></a></li>
 			</ol>
 		</p>
 		<p>Binary Exploitation: 
 			<ol>
-				<a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>Logon</p></a>
+				<li><a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>Logon</p></a></li>
 			</ol>
 		</p>
 	</ul>
