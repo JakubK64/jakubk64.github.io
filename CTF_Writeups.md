@@ -10,5 +10,10 @@ layout: page
 				<a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>Logon</p></a>
 			</ol>
 		</p>
+		<p>General Skills:
+			<ol>
+				<a href="{{ "/Based" | prepend: site.baseurl | replace: '//', '/' }}"><p>Based</p></a>
+			</ol>
+		</p>
 	</ul>
 </section>
