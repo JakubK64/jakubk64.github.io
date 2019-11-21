@@ -17,5 +17,10 @@ layout: page
 				<li><a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>Logon</p></a></li>
 			</ol>
 		</p>
+		<p>Forensics:
+			<ol>
+				<li><a href="{{ "/extensions" | prepend: site.baseurl | replace: '//', '/' }}"><p>Extensions</p></a></li>
+			</ol>
+		</p>
 	</ul>
 </section>
