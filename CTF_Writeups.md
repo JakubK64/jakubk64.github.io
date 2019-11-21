@@ -20,7 +20,7 @@ layout: page
 		<p>Forensics:
 			<ol>
 				<li><a href="{{ "/extensions" | prepend: site.baseurl | replace: '//', '/' }}"><p>Extensions</p></a></li>
-				<li><a href="{{ "/So%20Meta" | prepend: site.baseurl | replace: '//', '/' }}"><p>So Meta</p></a></li>
+				<li><a href="{{ "/So-Meta" | prepend: site.baseurl | replace: '//', '/' }}"><p>So Meta</p></a></li>
 			</ol>
 		</p>
 	</ul>
