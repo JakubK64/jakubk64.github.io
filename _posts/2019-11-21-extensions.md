@@ -2,7 +2,7 @@
 layout: post
 title: EXTENSIONS (picoCTF2019)
 published: true
-tags: pico picoCTF General Skills GeneralSkills difference jpg whats-the-difference picoCTF2019
+tags: pico picoCTF Forensics extensions picoCTF2019
 ---
 
 ### Description
