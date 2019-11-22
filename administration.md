@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-
+test
 <section>
 	<h1>Administracja & Chmura</h1>
 	<ul>
