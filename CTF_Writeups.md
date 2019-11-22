@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-test
+
 <section>
 	<h1>picoCTF2019:</h1>
 	<ul>
