@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating Domain Controller on Windows Server
+title: Tworzenie kontrolera domeny - Windows Serwer 2019
 published: true
 tags: Hyper-V VM maszyna windows server 2019 2016 domain controller DC 
 ---
