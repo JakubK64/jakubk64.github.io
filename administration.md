@@ -12,9 +12,8 @@ layout: page
 		</p>
 		<p>Windows Server
 			<ol>
-				<li><a href="{{ "/creating-DC" | prepend: site.baseurl | replace: '//', '/' }}"><p>Tworzenie kontrolera domeny</p></a></li>
+				<li><a href="{{ "/creating-DC" | prepend: site.baseurl | replace: '//', '/' }}"><p>Tworzenie kontrolera domeny - Windows Serwer 2019</p></a></li>
 			</ol>
 		</p>
 	</ul>
-	...
 </section>
