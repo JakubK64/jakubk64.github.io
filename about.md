@@ -3,5 +3,5 @@ layout: page
 title: About
 ---
 
-Since 2014 I'm working as volleyball scoutman. I'm also a student of 3rd year of university as an IT Specialist, 
-specializing in cloud technology (Microsoft Azure). In free time I learn a lot of about cybersecurity, playing CTF-s and watching IT conferences.
+Od 2014 roku statystyk w klubie siatkarskim Wisła Warszawa. Student 3 roku studiów inżynierskich na kierunku Informatyka,
+ze specjalizacją - Technologia Chmury. Wolny czas poświęcam na zgłębianie tajników cyberbezpieczeństwa, graniu w CTF-y oraz oglądaniu bądź uczestniczeniu w konferencjach IT (najczęściej związanych z cyberbezpieczeństwem)
