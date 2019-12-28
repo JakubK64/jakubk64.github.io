@@ -84,4 +84,13 @@ Po zakończeniu instalacji maszyna powinna się zrestartować. Po restarcie zapa
 
 ### Replikacja przez IFM
 
-(w budowie...)
+Aby użyć medium IFM trzeba go wcześniej przygotować ma głównym kontrolerze domeny. W tym celu odpalamy Windows Command Line i uruchamiamy narzędzie "ntdsutil"
+Utworzenie medium IFM jest dość proste, robimy to w następujący sposób: (po uruchomieniu narzędzia ifm w CMD wpisujemy create (aby utworzyć) full (skopiować całość) oraz ścieżkę, gdzie chcemy, aby folder z plikami został utworzony)
+
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Zapasowy_Kontroler\IFM1.PNG }}CTF\Administracja\Windows_Server\Zapasowy_Kontroler\IFM1.PNG)
+
+Po zakończeniu dostajemy 2 pliki umieszczone w odpowiednim miejscu w folderze - insteresuje nas pierwszy z nich:
+
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Zapasowy_Kontroler\IFM3.PNG }}CTF\Administracja\Windows_Server\Zapasowy_Kontroler\IFM3.PNG)
+
+Tworzenie zapasowego kontrolera przez IFM przebiega podobnie jak jest pokazane wyżej, z tą różnicą, że przygotowany wcześniej plik ntds.dit trzeba przenieść na maszynę, na której tworzymy zapasowy kontroler domeny i wskazać ten plik przy promowaniu kontrolera domeny. Dane odnośnie Active Directory zostaną "pobrane" ze wskazanego pliku, a dopiero nowe elementy Active DIrectory będą replikowane przez sieć
