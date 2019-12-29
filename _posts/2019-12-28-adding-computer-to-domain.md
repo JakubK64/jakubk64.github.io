@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Różne sposoby dodawania komutera do domeny
+title: Różne sposoby dodawania komutera do domeny - Windows 10
 published: true
 tags: domain domena dodawanie adding cmd powershell
 ---
