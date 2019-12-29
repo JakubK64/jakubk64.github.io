@@ -89,7 +89,7 @@ Utworzenie medium IFM jest dość proste, robimy to w następujący sposób: (po
 
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Zapasowy_Kontroler\IFM1.PNG }}CTF\Administracja\Windows_Server\Zapasowy_Kontroler\IFM1.PNG)
 
-Po zakończeniu dostajemy 2 pliki umieszczone w odpowiednim miejscu w folderze - insteresuje nas pierwszy z nich:
+Po zakończeniu dostajemy 2 pliki umieszczone w odpowiednim miejscu w folderze - insteresuje nas pierwszy z nich. Jest to wyeksportowana baza danych Active Directory Domain Services:
 
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Zapasowy_Kontroler\IFM3.PNG }}CTF\Administracja\Windows_Server\Zapasowy_Kontroler\IFM3.PNG)
 
