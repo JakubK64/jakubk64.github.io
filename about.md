@@ -10,4 +10,4 @@ ze specjalizacją - Technologia Chmury. Wolny czas poświęcam na zgłębianie t
 
 ### Certyfikaty, uczestnictwa i inne:
 
-![useful image]({{ https://github.com\JakubK64\jakubk64.github.io\blob\master\CTF\Certyfikaty\Cyber_Academy_2019.pdf }}CTF\Certyfikaty\Cyber_Academy_2019.pdf)
+![useful image]({{ https://github.com\JakubK64\jakubk64.github.io\blob\master\CTF\Certyfikaty\Cyber_Academy_2019.png }}CTF\Certyfikaty\Cyber_Academy_2019.png)
