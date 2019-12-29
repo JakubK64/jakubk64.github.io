@@ -124,7 +124,7 @@ djoin jest poleceniem uruchamianym w CMD, które pozwala na dodanie komputera do
 Przechodzimy więc do kontrolera domeny i uruchamiamy CMD jako administrator. Następnie wpisujemy nastepującą komendę:
 
 *djoin /provision /domain [nazwa domeny] /machine [nazwa maszyny/komputera/urządzenia] /savefile [nazwa pliku].txt*
-
+																																			
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Dodawanie_Do_Domeny\DJ1.PNG }}CTF\Administracja\Windows_Server\Dodawanie_Do_Domeny\DJ1.PNG)
 
 Utworzony plik znajdujemy w lokalicacji, w której przebywaliśmy podczas uruchomienia polecenia djoin:
