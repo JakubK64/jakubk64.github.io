@@ -15,7 +15,7 @@ Pracująć na środowisku "testowym", złożonym z maszyn wirtualnych należe za
 
 Na początek przejdźmy do ustawienia adresów IP. Korzystamy z jednej z kilku metod wejścia do ustawień adresów IPv4:
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Dodawanie_Do_Domeny\IP1.PNG }}CTF\Administracja\Windows_Server\Dodawanie_Do_Domeny\IP1.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Dodawanie_Do_Domeny/IP1.PNG }}CTF/Administracja/Windows_Server/Dodawanie_Do_Domeny/IP1.PNG)
 
 Potem w "Change adapter options":
 
