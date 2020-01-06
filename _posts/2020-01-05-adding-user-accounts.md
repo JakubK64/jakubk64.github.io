@@ -12,6 +12,7 @@ Na głównym kontrolerze domeny uruchamiamy Server Maganer. Następnie przechodz
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Tworzenie_Kont_Uzytkownika/ADUC1.PNG }}CTF\Administracja\Windows_Server\Tworzenie_Kont_Uzytkownika\ADUC1.PNG)
 
 W okienku, które widzimy pojawia się nam struktura organizacyjna AD naszej domeny oraz odpowiednio pogrupowane zawarte w domenie obiekty. Nas interesują konta użytkowników, więc przechodzimy do zakładki "Users".
+
 Następnie klikamy PPM w wolną przestrzeń, w "New" i "User"
 
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Tworzenie_Kont_Uzytkownika/ADUC2.PNG }}CTF\Administracja\Windows_Server\Tworzenie_Kont_Uzytkownika\ADUC2.PNG)
@@ -47,6 +48,7 @@ Następnie wchodzimy w naszą domenę, "Users", klikamy PPM w pustej przestrzeni
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Tworzenie_Kont_Uzytkownika/ADAC2.PNG }}CTF\Administracja\Windows_Server\Tworzenie_Kont_Uzytkownika\ADAC2.PNG)
 
 W kreatorze od razu widzimy dużo więcej dostępnych opcji niż w przypadku ADUC (te same opcje można znaleźć we właściwościach utworzonego już konta jeżeli korzystamy z ADUC_
+
 Musimy wypełnić podstawowe pola jak login, hasło użytkownika i pole "Full Name" reszta pół jest opcjonalna. W niewymaganych opcjach możemy ustawić wiele rzeczy jak np. opcje dotyczące hasła, szczegołowe informacje o użytkowniku, jego dane osobowe, dodać go do grupy czy jednostki organizacyjnej w domenie i wiele więcej.
 
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Tworzenie_Kont_Uzytkownika/ADAC3.PNG }}CTF\Administracja\Windows_Server\Tworzenie_Kont_Uzytkownika\ADAC3.PNG)
@@ -58,6 +60,7 @@ Jak widzimy, konto użytkownika zostało utworzone poprawnie:
 ### 3. Poprzez PowerShell
 
 W PowerShell użytkownika możemy utworzyć za pomocą komendy New-ADUser (New Active Directory User) z odpowiednimi przęłącznikami.
+
 Wpisujemy więc podaną komendę a następnie precyzujemy dane dotyczące konta za pomocą następujących przęłączników:
 - "-Name" po którym wpisujemy Imię
 - "-Surname" po którym wpisujemy Nazwisko
@@ -76,7 +79,9 @@ Aby sprawdzić, czy konto zostało utworzone możemy użyć komendy "Get-ADUser 
 
 Odpalamy CMD jako administrator i używamy następującej komendy:
 *dsadd user [ścieżka DN] -pwd *
+
 W ścieżce zawieramy informacje o użytkowniku i położeniu tego obiektu w drzewie ADDS
+
 Następnie wpisujemy hasło dla użytkownika i potwierdzamy je wpisując je kolejny raz
 
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Administracja/Windows_Server/Tworzenie_Kont_Uzytkownika/CMD1.PNG }}CTF\Administracja\Windows_Server\Tworzenie_Kont_Uzytkownika\CMD1.PNG)
