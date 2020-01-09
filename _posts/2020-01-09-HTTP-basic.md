@@ -39,7 +39,7 @@ Przykład błędnego requesta z tylko 1 pustą linią:
 
 Odpowiedź serwera (a w zasadzie brak odpowiedzi, komunikat o przekroczeniu czasu żądania):
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/Response2.PNG }}CTF/Notatki/HTTP/Response2.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/Response2.PNG }}CTF/Notatki/HTTP/Response2.png)
 
 ### Przeszukiwanie zawartości serwera metodą HEAD
 
@@ -47,13 +47,13 @@ W celu przeszukiwania zawartości serwera możemy wykorzystać metodę HEAD, kt�
 
 Nagłówek konstruujemy w taki sposób, że zamieniamy 2 element 1 linii żądania (adres URL) na różne ścieżki np. plików, które chcemy przetestować (czy są na serwerze)
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/HEAD1.PNG }}CTF/Notatki/HTTP/HEAD1.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/HEAD1.PNG }}CTF/Notatki/HTTP/HEAD1.png)
 
 To, czy dany element jest na serwerze określamy na podstawie kodu opdowiedzi z 1 linii odpowiedzi serwera. Podstawowe kody odpowiedzi:
 
 - 200 - OK, ścieżka (czy bardziej URL) podany w żądaniu istnieje:
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/HEAD2.PNG }}CTF/Notatki/HTTP/HEAD2.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/HEAD2.PNG }}CTF/Notatki/HTTP/HEAD2.png)
 
 - 301 - Moved Permanently, zasób został przeniesiony/znajduje się w innej lokalizacji (która jest podana w odpowiedzi w nagłówku "Location":
 
@@ -78,7 +78,7 @@ Jeżeli naszym celem jest poznanie obsługiwanych przez dany serwer metod, może
 
 Proste żądanie:
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/OPTIONS1.PNG }}CTF/Notatki/HTTP/OPTIONS1.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/OPTIONS1.PNG }}CTF/Notatki/HTTP/OPTIONS1.png)
 
 W odpowiedzi zwracamy uwagę na nagłówek "Allow", która wyświetli wszystkie obsługiwane przez serwer metody (przynajmniej w teorii, bo informacja zwracana przez serwer czasami może być nieprawdziwa):
 
@@ -111,17 +111,17 @@ Serwer może zwrócić odpowiedzi o różnych kodach, np.:
 Parametry mogą być przekazywane w nagłówkach żądania HTTP i tam występowały błędy bezpieczeństwa (SQL Injection w "User-Agent" oraz Path Traversal w "Accept" we frameworku Ruby on Rails).
 Przekazywane parametry najczęściej widzimy w URL przy zapytaniach metodą "GET" na takiej zasadzie:
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/GET1.PNG }}CTF/Notatki/HTTP/GET1.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/GET1.PNG }}CTF/Notatki/HTTP/GET1.png)
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/GET2.PNG }}CTF/Notatki/HTTP/GET2.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/GET2.PNG }}CTF/Notatki/HTTP/GET2.png)
 
 Parametry i ich wartości można również przekazywać używając kodowania procentowego tj.%[kod ASCII zapisany szesnastkowo]. Spacja jest reprezentowana przez "+", "+" trzeba zapisać w kodzie procentowym %2b
 
 Zamiast metody GET można również wykorzystać metodę POST. Wtedy żądanie wygląda następująco (parametry i ich wartości są przekazywane w tym przypadku w "body" żądania):
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/POST1.PNG }}CTF/Notatki/HTTP/POST1.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/POST1.PNG }}CTF/Notatki/HTTP/POST1.png)
 
-![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/POST2.PNG }}CTF/Notatki/HTTP/POST2.PNG)
+![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/Notatki/HTTP/POST2.PNG }}CTF/Notatki/HTTP/POST2.png)
 
 
 
