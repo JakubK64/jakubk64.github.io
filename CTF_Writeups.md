@@ -25,5 +25,10 @@ layout: page
 				<li><a href="{{ "/So-Meta" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN]So Meta</p></a></li>
 			</ol>
 		</p>
+		<p>Cryptography:
+			<ol>
+				<li><a href="{{ "/flags" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]Flags</p></a></li>
+			</ol>
+		</p>
 	</ul>
 </section>
