@@ -15,6 +15,7 @@ layout: page
 		<p>Binary Exploitation: 
 			<ol>
 				<li><a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN]Logon</p></a></li>
+				<li><a href="{{ "/handy-shellcode" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]handy-shellcode</p></a></li>
 			</ol>
 		</p>
 		<p>Forensics:
