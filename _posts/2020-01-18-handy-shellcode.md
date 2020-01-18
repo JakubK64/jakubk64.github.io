@@ -5,11 +5,11 @@ published: true
 tags: picoCTF2019 pico CTF 
 ---
 
-### Opis
+## Opis
 
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/picoCTF2019/Web%20Exploitation/handy-shellcode/zadanie.PNG }}\CTF\picoCTF2019\Web%20Exploitation\handy-shellcode\zadanie.PNG)
 
-### Rozwiązanie
+## Rozwiązanie
 
 Po przejściu do wskazanej lokalizacji znajdujemy plik "flag.txt" zawierający nasz flagę, do którego odczytania nie mamy uprawnień. Dodatkowo znajdujemy pewien program oraz jego kod źródłowy w języku C:
 
@@ -62,4 +62,4 @@ cat flag.txt
 ![useful image]({{ https://github.com/JakubK64/jakubk64.github.io/blob/master/CTF/picoCTF2019/Web%20Exploitation/handy-shellcode/6.PNG }}\CTF\picoCTF2019\Web%20Exploitation\handy-shellcode\6.PNG)
 
 
-#### *picoCTF{h4ndY_d4ndY_sh311c0d3_0b440487}*
+## *picoCTF{h4ndY_d4ndY_sh311c0d3_0b440487}*
