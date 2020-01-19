@@ -9,7 +9,7 @@ layout: page
 			<ol>
 				<li><a href="{{ "/Based" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN] Based (200p)</p></a></li>
 				<li><a href="{{ "/flag_shop" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN] Flag_shop (300p)</p></a></li>
-				<li><a href="{{ "/whats-the-difference" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN]Whats-the-difference (200p)</p></a></li>
+				<li><a href="{{ "/whats-the-difference" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN] Whats-the-difference (200p)</p></a></li>
 			</ol>
 		</p>
 		<p>Binary Exploitation: 
@@ -36,6 +36,7 @@ layout: page
 			<ol>
 				<li><a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN] Logon (100p)</p></a></li>
 				<li><a href="{{ "/open-to-admins" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL] Open-to-admins (200p)</p></a></li>
+				<li><a href="{{ "/picobrowser" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL] Picobrowser (200p)</p></a></li>
 			</ol>
 		</p>
 	</ul>
