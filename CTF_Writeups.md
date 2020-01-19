@@ -14,7 +14,6 @@ layout: page
 		</p>
 		<p>Binary Exploitation: 
 			<ol>
-				<li><a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN]Logon</p></a></li>
 				<li><a href="{{ "/handy-shellcode" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]handy-shellcode</p></a></li>
 				<li><a href="{{ "/overflow1" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]OverFlow1</p></a></li>
 			</ol>
@@ -28,6 +27,13 @@ layout: page
 		<p>Cryptography:
 			<ol>
 				<li><a href="{{ "/flags" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]Flags</p></a></li>
+				<li><a href="{{ "/mr_worldwide" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]Mr-Worldwide</p></a></li>
+			</ol>
+		</p>
+		<p>Web Exploitation
+			<ol>
+				<li><a href="{{ "/Logon" | prepend: site.baseurl | replace: '//', '/' }}"><p>[EN]Logon</p></a></li>
+				<li><a href="{{ "/open-to-admins" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL]Open-to-admins</p></a></li>
 			</ol>
 		</p>
 	</ul>
