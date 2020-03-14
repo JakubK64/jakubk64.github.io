@@ -17,6 +17,7 @@ layout: page
 				<li><a href="{{ "/adding-computer-to-domain" | prepend: site.baseurl | replace: '//', '/' }}"><p>Dodawania komputera do domeny - Windows 10</p></a></li>
 				<li><a href="{{ "/adding-user-accounts"| prepend: site.baseurl | replace: '//', '/' }}"><p>Tworzenie konta domenowego użytkownika</p></a></li>
 				<li><a href="{{ "/containers-in-ad"| prepend: site.baseurl | replace: '//', '/' }}"><p>Jednostki Organizacyjne w AD</p></a></li>
+				<li><a href="{{ "/DNS"| prepend: site.baseurl | replace: '//', '/' }}"><p>Tworzenie stref i rekordów DNS</p></a></li>
 			</ol>
 		</p>
 	</ul>
