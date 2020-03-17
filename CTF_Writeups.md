@@ -30,6 +30,7 @@ layout: page
 				<li><a href="{{ "/mr_worldwide" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL] Mr-Worldwide (200p)</p></a></li>
 				<li><a href="{{ "/la-cifra-de" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL] Ls-cifra-de (200p)</p></a></li>
 				<li><a href="{{ "/tapping" | prepend: site.baseurl | replace: '//', '/' }}"><p>[PL] Tapping (200p)</p></a></li>
+				<li><a href="{{ "/rsa-pop-quiz" | prepend: site.baseurl |replace: '//', '/' }}"><p>[PL] Rsa-pop-quiz (200p)</p></a></li>
 			</ol>
 		</p>
 		<p>Web Exploitation
