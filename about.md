@@ -15,7 +15,7 @@ Blog ma charakter osobistego notatnika, gdzie opisuję różne zagadnienia, któ
 
 ### Kontakt:
 - [LinkedIn](https://www.linkedin.com/in/kulikowskijakub/)
-- Mail: jkulikowski1997<at>gmail.com
+- Mail: jkulikowski1997@gmail.com
 
 ### Certyfikaty, uczestnictwa i inne:
 
