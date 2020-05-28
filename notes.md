@@ -3,16 +3,6 @@ layout: page
 ---
 
 <section>
-	<h1>Notatki z przygotowań do certyfikacji</h1>
-	<ul>
-		<p><h2>Microsoft Azure</h2>
-			<ol>
-				<li><a href="{{ "/AZ-900-preparation-notes" | prepend: site.baseurl | replace: '//', '/' }}"><p>AZ-900 - Azure Fundamentals</p></a></li>
-			</ol>
-		</p>
-	</ul>
-</section>
-<section>
 	<h1>Notatki na różne tematy</h1>
 	<ul>
 		<p><h2>Sieć</h2>
