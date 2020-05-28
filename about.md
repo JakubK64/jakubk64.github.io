@@ -6,7 +6,8 @@ title: About
 ### Krótko o mnie:
 
 Od kwietnia 2020 roku pracuję na stanowisku IT Security Junior Specialist w KPMG Polska. 
-Od sierpnia 2014 do marca 2020 roku pracowałem jako statystyk w klubie siatkarskim, gdzie opowiadałem na przygotowanie taktyczne drużyny, "rozpracowanie" przeciwnika, nakreślenie planu na grę.
+
+Od sierpnia 2014 do marca 2020 roku pracowałem jako statystyk w klubie siatkarskim, gdzie odpowiadałem na przygotowanie taktyczne drużyny, "rozpracowanie" przeciwnika, nakreślenie planu na grę.
 
 Jestem jednocześnie studentem 3 roku studiów inżynierskich na kierunku Informatyka ze specjalizacją - Technologia Chmury Obliczeniowej ze szczególnym naciskiem na produkty Microsoft.
 

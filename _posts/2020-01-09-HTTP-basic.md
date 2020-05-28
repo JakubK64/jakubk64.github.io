@@ -4,6 +4,7 @@ title: Protokuł HTTP (notatki)
 published: true
 tags: ksiazka bezpieczenstwo aplikacji webowych http protokol
 ---
+
 ### Ogólnie o HTTP/1.1 
 Najczęściej spotykamy się z komunikacją HTTP z wykorzystaniem TCP (ewentualnie UDP)
 
