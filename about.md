@@ -14,8 +14,8 @@ Jestem jednocześnie studentem 3 roku studiów inżynierskich na kierunku Inform
 Blog ma charakter osobistego notatnika, gdzie opisuję różne zagadnienia, którymi się aktualnie zajmuję - od Write-upów poszczególnych zadań z CTF-ów, przez zagadnienia związane z szeroko rozumianą administracją i chmurą po zagadnienia związane z moim zamiłowaniem do cyberbezpieczeństwa.
 
 ### Kontakt:
-[LinkedIn](https://www.linkedin.com/in/kulikowskijakub/)
-Mail: jkulikowski1997<at>gmail.com
+- [LinkedIn](https://www.linkedin.com/in/kulikowskijakub/)
+- Mail: jkulikowski1997<at>gmail.com
 
 ### Certyfikaty, uczestnictwa i inne:
 
