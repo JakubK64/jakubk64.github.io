@@ -307,3 +307,5 @@ r.recvuntil("#### NEW PROBLEM ####")
 Task8(r)
 ```
 
+
+[Zajrzyj na moją nową stronę!](https://jakubk64.wordpress.com/)
