@@ -5,6 +5,8 @@ published: true
 tags: Hyper-V VM maszyna windows server 2019 2016 domain controller DC 
 ---
 
+# [Zobacz odświeżoną wersję artykułu na moim nowym blogu!](https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/)
+
 ### Czym jest kontroler domeny?
 
 Kontroler domeny jest komputerem w domenie, który zarządza realizacją zadań związanych z bezpieczeństwem pomiędzy użytkownikiem a Domeną Windows. Kontroluje on w jaki sposób użytkownicy uzyskują dostęp i konfigurują i korzystają z zasobów w obrębie domeny.
