@@ -1,8 +1,7 @@
 ---
-layout: post
-title: Tworzenie zapasowego kontrolera domeny - Windows Serwer 2019
-published: true
-tags: DC Domain Kontroler Controler Domeny zapasowy replikacja
+layout: redirected
+permalink: /creating-dc-rep/
+redirected_to: https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/
 ---
 
 ### Ogólnie o zapasowym kontrolerze domeny
