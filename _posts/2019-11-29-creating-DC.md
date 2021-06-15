@@ -1,8 +1,7 @@
 ---
-layout: post
-title: Tworzenie kontrolera domeny - Windows Serwer 2019
-published: true
-tags: Hyper-V VM maszyna windows server 2019 2016 domain controller DC 
+layout: redirected
+permalink: https://jakubk64.github.io/creating-DC
+redirect_to: https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/
 ---
 
 # [Zobacz odświeżoną wersję artykułu na moim nowym blogu!](https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/)
