@@ -1,7 +1,7 @@
 ---
 layout: redirected
 permalink: /creating-DC/
-redirect_to: /2021/01/26/tworzenie-kontrolera-domeny/
+redirect_to: https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/
 ---
 
 # [Zobacz odświeżoną wersję artykułu na moim nowym blogu!](https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/)
