@@ -1,7 +1,7 @@
 ---
 layout: redirected
-permalink: https://jakubk64.github.io/creating-DC
-redirect_to: https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/
+permalink: /creating-DC/
+redirect_to: /2021/01/26/tworzenie-kontrolera-domeny/
 ---
 
 # [Zobacz odświeżoną wersję artykułu na moim nowym blogu!](https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/)
