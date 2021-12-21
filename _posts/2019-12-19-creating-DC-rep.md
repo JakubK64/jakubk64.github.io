@@ -1,7 +1,7 @@
 ---
 layout: redirected
 permalink: /creating-dc-rep/
-redirected_to: https://mlodszybezpiecznik.pl/2021/01/26/tworzenie-kontrolera-domeny/
+redirected_to: https://jakubkulikowski.pl/2021/01/26/tworzenie-kontrolera-domeny/
 ---
 
 ### Ogólnie o zapasowym kontrolerze domeny
